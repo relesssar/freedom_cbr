@@ -8,6 +8,8 @@
 
 - composer install
 
+copy .env.example to .env
+
 Set .env DB_ settings, then:
 
 - php artisan migrate
