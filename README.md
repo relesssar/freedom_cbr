@@ -28,7 +28,7 @@ Run queue
 
 Run server
 
-- php artisan artisan serve
+- php artisan serve
 
 ## Web form
 
