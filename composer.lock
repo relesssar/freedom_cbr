@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "1ffc1648ebefb6f273212d5292c8eb8c",
     "packages": [
         {
             "name": "brick/math",
@@ -3123,6 +3123,53 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
+        },
+        {
+            "name": "relessar/currency-rate-cbr",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/relesssar/CurrencyRateCbr.git",
+                "reference": "8e378bb2b96531008b5c8c51ea7b1f77f5e5c405"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/relesssar/CurrencyRateCbr/zipball/8e378bb2b96531008b5c8c51ea7b1f77f5e5c405",
+                "reference": "8e378bb2b96531008b5c8c51ea7b1f77f5e5c405",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.8",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7.15"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AndyDune\\CurrencyRateCbr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Ryzhov",
+                    "email": "info@rznw.ru"
+                }
+            ],
+            "description": "Code for obtaining and parsing XML-data on currency rates of the Central Bank of the Russian Federation. Fork from https://github.com/AndyDune/CurrencyRateCbr",
+            "homepage": "https://github.com/relessar/CurrencyRateCbr",
+            "keywords": [
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/relesssar/CurrencyRateCbr/tree/v1.0.0"
+            },
+            "time": "2024-05-17T14:30:08+00:00"
         },
         {
             "name": "symfony/clock",
