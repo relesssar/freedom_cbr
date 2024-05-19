@@ -27,7 +27,7 @@ Run queue
 - php artisan queue:work --queue=high,default
 
 Run server
-
+- php artisan key:generate
 - php artisan serve
 
 ## Web form
