@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ffc1648ebefb6f273212d5292c8eb8c",
+    "content-hash": "52406eec479238046433ba7b52c4fe8f",
     "packages": [
         {
             "name": "brick/math",
@@ -3126,16 +3126,16 @@
         },
         {
             "name": "relessar/currency-rate-cbr",
-            "version": "v1.0.0",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/relesssar/CurrencyRateCbr.git",
-                "reference": "8e378bb2b96531008b5c8c51ea7b1f77f5e5c405"
+                "reference": "f54a40d213de41d05b1c6d4f9e6f5946d7b145b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/relesssar/CurrencyRateCbr/zipball/8e378bb2b96531008b5c8c51ea7b1f77f5e5c405",
-                "reference": "8e378bb2b96531008b5c8c51ea7b1f77f5e5c405",
+                "url": "https://api.github.com/repos/relesssar/CurrencyRateCbr/zipball/f54a40d213de41d05b1c6d4f9e6f5946d7b145b4",
+                "reference": "f54a40d213de41d05b1c6d4f9e6f5946d7b145b4",
                 "shasum": ""
             },
             "require": {
@@ -3167,9 +3167,10 @@
                 "php"
             ],
             "support": {
-                "source": "https://github.com/relesssar/CurrencyRateCbr/tree/v1.0.0"
+                "issues": "https://github.com/relesssar/CurrencyRateCbr/issues",
+                "source": "https://github.com/relesssar/CurrencyRateCbr/tree/v1.1"
             },
-            "time": "2024-05-17T14:30:08+00:00"
+            "time": "2024-05-19T16:14:01+00:00"
         },
         {
             "name": "symfony/clock",
